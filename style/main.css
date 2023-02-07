@@ -1,10 +1,6 @@
+@import url("/style/main_styles.css");
+
 :root {
-  --small-title-size: ;
-  --normal-title-size: ;
-  --large-title-size: ;
-  --small-large-text: ;
-  --normal-large-text: ;
-  --large-text: ;
   --m_header-bg-color: ;
   --m_content_box_bg_gradient: ;
   --m_content_box_bg_color: ;
@@ -35,5 +31,13 @@
 }
 
 .m_footer {
+  
+}
+
+.m_footer__list_link {
+  
+}
+
+.m_footer__link {
   
 }
