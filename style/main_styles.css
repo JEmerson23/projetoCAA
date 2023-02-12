@@ -1,30 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed& display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code&display=swap');
+
 :root {
-  --small-title-size: ;
-  --normal-title-size: ;
-  --large-title-size: ;
-  --small-large-text: ;
-  --normal-large-text: ;
-  --large-text: ;
-  --ok-button-bg-color: ;
-  --cancel-button-bg-color: ;
+  --light-shadow-color : rgba(0,0,0,0.25);
+  --dark-shadow-color: rgba(0,0,0,0.5);
+  --small-title-size: 1.2em;
+  --normal-title-size: 1.5em;
+  --large-title-size: 2em;
+  --small-large-text-size: 1.2em;
+  --normal-large-text-size: 1.4em;
+  --large-text-size: 1.6em;
+  --ok-button-bg-color: #0fff6b;
+  --cancel-button-bg-color: #fd5a00;
+  --logo-color-ligth: #f8feff;
+}
+
+.circular-element {
+  border-radius: 100%;
+}
+
+.element-loading {
+  
+}
+
+.green-ok-button,.red-cancel-button {
+  border: none;
+  border-radius: 25px;
+  box-shadow: 1px 2px 2px var(--light-shadow-color);
+  color: #fafafa;
+  font-family: 'Fira Code', monospace;
+  font-size: 1em;
+  font-weight: 450;
+  letter-spacing: 0;
+  word-spacing: -4px;
+  padding: 1% 2% 1% 2%;
+  width: auto;
 }
 
 .green-ok-button {
-  
+  background-color: var(--ok-button-bg-color);
+}
+
+.green-ok-button:focus, .red-cancel-button:focus {
+  outline: none;
+}
+
+.logo {
+  color: var(--logo-color-ligth);
+  cursor: pointer;
+  background: transparent;
+  font-family: 'Fira Code', monospace;
+  font-size: 1.5em;
+  letter-spacing: -3px;
+  text-align: center;
+  width: fit-content;
+  max-height: 100%;
+  max-width: 25%;
+  user-select: none;
 }
 
 .red-cancel-button {
-  
+  background-color: var(--cancel-button-bg-color);
+}
+
+.title--small, .title--normal, .title--large {
+  font-family: 'Roboto Condensed', sem serifa;
 }
 
 .title--small {
-  
+  font-size: var(--small-title-size);
 }
 
 .title--normal {
-  
+  font-size: var(--normal-title-size);
 }
 
 .title--large {
+  font-size: var(--large-title-size);
+}
+
+.small-large-text, .normal-large-text, .large-text {
+  font-family: 'Roboto Condensed', sem serifa;
+}
+
+.small-large-text {
+  font-size: var(--small-large-text-size);
+}
+
+.normal-large-text {
+  font-size: var(--normal-large-text-size);
+}
+
+.large-text {
+  font-size: var(--large-text-size);
+}
+
+.inline-menu {
   
 }

@@ -1,0 +1,15 @@
+@media screen and (max-width: 700px){
+  .header__user_menu {
+    width: 50%;
+    height: auto;
+  }
+  
+  .header__user_menu__options_list {
+    height: 100vh;
+  }
+}
+
+@media (max-width: 900px){
+  .header__user_menu {
+  }
+}
