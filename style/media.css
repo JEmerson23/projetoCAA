@@ -1,11 +1,11 @@
-@media screen and (max-width: 700px){
+@media screen and (max-width: 768px){
   .header__user_menu {
     width: 50%;
     height: auto;
   }
   
   .header__user_menu__options_list {
-    height: 100vh;
+
   }
 }
 

@@ -45,6 +45,20 @@
   outline: none;
 }
 
+.inline-menu {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin: 1% auto;
+  padding: 1% 1% 1% 1%;
+}
+
+.inline-menu > * {
+  margin: 2% 1% 2% 1%;
+}
+
 .logo {
   color: var(--logo-color-ligth);
   cursor: pointer;
@@ -95,6 +109,15 @@
   font-size: var(--large-text-size);
 }
 
-.inline-menu {
-  
+.text-box-with-title {
+  margin: 3% auto 4% auto;
+  max-width: 90%;
+}
+
+.text-box-with-title h1,h2,h3,h4,h5,h6 {
+  margin: 2% auto 1% 1%;
+}
+
+.text-box-with-title p {
+  margin: 0 auto 1% 3%;
 }
