@@ -4,11 +4,25 @@
   padding: 0;
 }
 
+html, body {
+  height: 100%;
+}
+
 body {
- width: 100vw;
+ width: 100%;
  position: relative;
 }
 
 a.green-ok-button, a.red-cancel-button {
   text-decoration: none;
+}
+
+button, a, select {
+  cursor: pointer;
+}
+
+button {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }

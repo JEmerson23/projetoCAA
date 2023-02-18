@@ -45,6 +45,21 @@
   outline: none;
 }
 
+.hamburger-menu-button, .close-menu-button {
+  background-color: transparent;
+  border: none;
+  width: 32px;
+  height: 32px;
+}
+
+.hamburger-menu-button {
+  background-image: url('/src/icon/hamburger_menu.svg');
+}
+
+.close-menu-button {
+  background-image: url('/src/icon/close.svg');
+} 
+
 .inline-menu {
   display: flex;
   align-items: center;
